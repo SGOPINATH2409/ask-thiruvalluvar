@@ -169,20 +169,20 @@ export default function Home() {
       </div>
 
       {/* Input */}
-      <div className="p-3 bg-white flex gap-2 border-t">
-        <input
-          className="flex-1 border rounded-lg p-2 focus:outline-none"
-          placeholder="Ask your problem..."
-          value={input}
-          onChange={(e) => setInput(e.target.value)}
-        />
-        <button
-          onClick={sendMessage}
-          className="bg-orange-500 text-white px-4 rounded-lg"
-        >
-          Send
-        </button>
-      </div>
+      <div className="p-3 bg-white flex gap-2 border-t shadow-md">
+  <input
+    className="flex-1 border rounded-xl p-3 bg-white text-black placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-orange-400"
+    placeholder="Ask your problem..."
+    value={input}
+    onChange={(e) => setInput(e.target.value)}
+  />
+  <button
+    onClick={sendMessage}
+    className="bg-orange-500 text-white px-4 rounded-xl hover:bg-orange-600"
+  >
+    Send
+  </button>
+</div>
     </div>
   );
 }
