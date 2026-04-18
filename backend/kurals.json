@@ -1,14 +1,126 @@
 [
   {
-    "keywords": ["angry", "fight"],
-    "kural": "அறத்தொடு நடுவுவேண்டும் கோபம் உடையார்\nபிறத்தொடு பழகுதல் நீர்த்து",
-    "meaning": "Control anger with fairness",
-    "action": "Pause before reacting"
+    "keywords": ["anger", "angry", "rage"],
+    "kural": "தன்னைத்தான் காக்கின் சினங்காக்க காவாக்கால்\nதன்னையே கொல்லுஞ் சினம்.",
+    "meaning": "If you don’t control anger, it will destroy you",
+    "action": "Pause and breathe before reacting"
   },
   {
-    "keywords": ["lazy"],
-    "kural": "உழுதுண்டு வாழ்வாரே வாழ்வார் மற்றெல்லாம்\nதொழுதுண்டு பின்செல் பவர்",
-    "meaning": "Hard work sustains life",
-    "action": "Start small today"
+    "keywords": ["anger consequences", "loss", "mistake"],
+    "kural": "சினத்தைப் பொருளென்று கொண்டவன் கேடு\nநிலத்தறைந்தான் கைபிழையா தற்று.",
+    "meaning": "Anger brings inevitable damage",
+    "action": "Think long-term before reacting"
+  },
+  {
+    "keywords": ["forgive", "let go", "anger"],
+    "kural": "மறத்தல் வெகுளியை யார்மாட்டும் தீய\nபிறத்தல் அதனான் வரும்.",
+    "meaning": "Holding anger leads to more harm",
+    "action": "Let go instead of holding grudges"
+  },
+  {
+    "keywords": ["anger destroys", "relationships"],
+    "kural": "சினமென்னும் சேர்ந்தாரைக் கொல்லி இனமென்னும்\nஏமப் புணையைச் சுடும்.",
+    "meaning": "Anger destroys relationships",
+    "action": "Protect relationships over ego"
+  },
+  {
+    "keywords": ["temper control", "habit"],
+    "kural": "நீங்கான் வெகுளி நிறையிலன் எஞ்ஞான்றும்\nயாங்கணும் யார்க்கும் எளிது.",
+    "meaning": "An angry person loses dignity",
+    "action": "Train your mind to stay calm"
+  },
+
+  {
+    "keywords": ["lazy", "procrastination"],
+    "kural": "குடிமடிந்து குற்றம் பெருகும் மடிமடிந்து\nமாண்ட உஞற்றி லவர்க்கு.",
+    "meaning": "Laziness leads to failure",
+    "action": "Start small, don’t delay"
+  },
+  {
+    "keywords": ["sleep", "time waste"],
+    "kural": "நெடுநீர் மறவி மடிதுயில் நான்கும்\nகெடுநீரார் காமக் கலன்.",
+    "meaning": "Excess sleep and delay ruin life",
+    "action": "Reduce distractions and act"
+  },
+  {
+    "keywords": ["discipline", "effort"],
+    "kural": "படியுடையார் பற்றமைந்தக் கண்ணும் மடியுடையார்\nமாண்பயன் எய்தல் அரிது.",
+    "meaning": "Without effort, success is impossible",
+    "action": "Be consistent in work"
+  },
+  {
+    "keywords": ["hard work", "success"],
+    "kural": "மடியுளாள் மாமுகடி என்ப மடியிலான்\nதாளுளான் தாமரையி னாள்.",
+    "meaning": "Effort brings prosperity",
+    "action": "Stay active and work daily"
+  },
+
+  {
+    "keywords": ["friendship", "true friends"],
+    "kural": "நிறைநீர நீரவர் கேண்மை பிறைமதிப்\nபின்னீர பேதையார் நட்பு.",
+    "meaning": "True friendship grows, fake one fades",
+    "action": "Choose friends wisely"
+  },
+  {
+    "keywords": ["toxic friends"],
+    "kural": "மருவுக மாசற்றார் கேண்மைஒன் றீத்தும்\nஒருவுக ஒப்பிலார் நட்பு.",
+    "meaning": "Avoid harmful friendships",
+    "action": "Stay away from negative people"
+  },
+  {
+    "keywords": ["loyal friendship"],
+    "kural": "பழைமை எனப்படுவது யாதெனின் யாதும்\nகிழமையைக் கீழ்ந்திடா நட்பு.",
+    "meaning": "True friendship never breaks",
+    "action": "Value long-term bonds"
+  },
+  {
+    "keywords": ["fake friendship"],
+    "kural": "ஊதியம் என்பது ஒருவற்குப் பேதையார்\nகேண்மை ஒரீஇ விடல்.",
+    "meaning": "Leaving foolish friends is beneficial",
+    "action": "Detach from harmful people"
+  },
+
+  {
+    "keywords": ["love", "emotion"],
+    "kural": "அன்பிற்கும் உண்டோ அடைக்குந்தாழ் ஆர்வலர்\nபுன்கணீர் பூசல் தரும்.",
+    "meaning": "Love cannot be hidden",
+    "action": "Express emotions honestly"
+  },
+  {
+    "keywords": ["relationship", "love pain"],
+    "kural": "இன்னாது இனன்இல்ஊர் வாழ்தல் அதனினும்\nஇன்னாது இனியார்ப் பிரிவு.",
+    "meaning": "Separation hurts deeply",
+    "action": "Value relationships when present"
+  },
+  {
+    "keywords": ["breakup", "missing"],
+    "kural": "நெருநற்றுச் சென்றார்எம் காதலர் யாமும்\nஎழுநாளேம் மேனி பசந்து.",
+    "meaning": "Love absence feels long",
+    "action": "Give time to heal"
+  },
+
+  {
+    "keywords": ["truth", "honesty"],
+    "kural": "யாமெய்யாக் கண்டவற்றுள் இல்லை எனைத்தொன்றும்\nவாய்மையின் நல்ல பிற.",
+    "meaning": "Nothing is greater than truth",
+    "action": "Always speak honestly"
+  },
+  {
+    "keywords": ["humility"],
+    "kural": "பெருக்கத்து வேண்டும் பணிதல் சிறிய\nசுருக்கத்து வேண்டும் உயர்வு.",
+    "meaning": "Be humble in success",
+    "action": "Stay grounded always"
+  },
+  {
+    "keywords": ["confidence", "growth"],
+    "kural": "அருமை உடைத்தென்று அசாவாமை வேண்டும்\nபெருமை முயற்சி தரும்.",
+    "meaning": "Confidence brings success",
+    "action": "Trust your effort"
+  },
+  {
+    "keywords": ["failure", "difficulty"],
+    "kural": "அடுக்கி வரினும் அழிவிலான் உற்ற\nஇடுக்கண் இடுக்கட் படும்.",
+    "meaning": "Difficulties test strength",
+    "action": "Stay strong and persistent"
   }
 ]
