@@ -1,4 +1,161 @@
-[
+[  
+  
+  {
+    "keywords": ["ego", "pride", "insult"],
+    "kural": "இகழ்ச்சியின் கெட்டாரை உள்ளுக தாந்தம்\nமகிழ்ச்சியின் மைந்துறும் போழ்து.",
+    "meaning": "Remember past insults even in happy times",
+    "action": "Stay grounded and avoid arrogance"
+  },
+  {
+    "keywords": ["awareness", "understanding"],
+    "kural": "கண்ணோட்டம் என்னும் கழிபெருங் காரிகை\nஉண்மையான் உண்டிவ் வுலகு.",
+    "meaning": "Awareness keeps life meaningful",
+    "action": "Be mindful in your actions"
+  },
+  {
+    "keywords": ["decision", "mistake"],
+    "kural": "நன்றாங்கால் நல்லவாக் காண்பவர் அன்றாங்கால்\nஅல்லற் படுவ தெவன்.",
+    "meaning": "Good judgment avoids suffering",
+    "action": "Think before choosing"
+  },
+  {
+    "keywords": ["friendship", "loyalty"],
+    "kural": "நட்பிற் குறுப்புக் கெழுதகைமை மற்றதற்கு\nஉப்பாதல் சான்றோர் கடன்.",
+    "meaning": "True friendship must be protected",
+    "action": "Value and maintain real bonds"
+  },
+  {
+    "keywords": ["expression", "emotion"],
+    "kural": "முகத்தின் முதுக்குறைந்தது உண்டோ உவப்பினும்\nகாயினும் தான்முந் துறும்.",
+    "meaning": "Face reveals emotions instantly",
+    "action": "Be aware of your expressions"
+  },
+  {
+    "keywords": ["success", "humility"],
+    "kural": "பெருக்கத்து வேண்டும் பணிதல் சிறிய\nசுருக்கத்து வேண்டும் உயர்வு.",
+    "meaning": "Be humble in success",
+    "action": "Stay grounded always"
+  },
+  {
+    "keywords": ["love", "happiness"],
+    "kural": "உள்ளக் களித்தலும் காண மகிழ்தலும்\nகள்ளுக்கில் காமத்திற் குண்டு.",
+    "meaning": "Love brings joy beyond anything",
+    "action": "Value emotional connections"
+  },
+  {
+    "keywords": ["conflict", "peace"],
+    "kural": "இன்பத்துள் இன்பம் பயக்கும் இகலென்னும்\nதுன்பத்துள் துன்பங் கெடின்.",
+    "meaning": "Avoid conflict for true happiness",
+    "action": "Choose peace over arguments"
+  },
+  {
+    "keywords": ["anger", "emotion"],
+    "kural": "நகையும் உவகையும் கொல்லும் சினத்தின்\nபகையும் உளவோ பிற.",
+    "meaning": "Anger destroys joy",
+    "action": "Control anger to protect happiness"
+  },
+  {
+    "keywords": ["kindness", "communication"],
+    "kural": "அகன்அமர்ந்து ஈதலின் நன்றே முகனமர்ந்து\nஇன்சொலன் ஆகப் பெறின்.",
+    "meaning": "Kind words matter more than gifts",
+    "action": "Speak gently"
+  },
+  {
+    "keywords": ["desire", "control"],
+    "kural": "இன்பத்துள் இன்பம் விழையாதான் துன்பத்துள்\nதுன்பம் உறுதல் இலன்.",
+    "meaning": "Control desires to avoid suffering",
+    "action": "Be content"
+  },
+  {
+    "keywords": ["love", "attachment"],
+    "kural": "உள்ளினும் தீராப் பெருமகிழ் செய்தலால்\nகள்ளினும் காமம் இனிது.",
+    "meaning": "Love gives lasting joy",
+    "action": "Cherish meaningful bonds"
+  },
+  {
+    "keywords": ["friendship", "support"],
+    "kural": "துப்பின் எவனாவர் மன்கொல் துயர்வரவு\nநட்பினுள் ஆற்று பவர்.",
+    "meaning": "True friends help in pain",
+    "action": "Be there for others"
+  },
+  {
+    "keywords": ["strategy", "planning"],
+    "kural": "வினையான் வினையாக்கிக் கோடல் நனைகவுள்\nயானையால் யானையாத் தற்று.",
+    "meaning": "Plan actions carefully",
+    "action": "Think before execution"
+  },
+  {
+    "keywords": ["anger control"],
+    "kural": "இரப்பான் வெகுளாமை வேண்டும் நிரப்பிடும்பை\nதானேயும் சாலும் கரி.",
+    "meaning": "Anger harms even the weak",
+    "action": "Stay calm always"
+  },
+  {
+    "keywords": ["learning", "knowledge"],
+    "kural": "கற்றுக்கண் அஞ்சான் செலச்சொல்லிக் காலத்தால்\nதக்கது அறிவதாம் தூது.",
+    "meaning": "Speak wisely with knowledge",
+    "action": "Learn and apply at right time"
+  },
+  {
+    "keywords": ["anger", "control"],
+    "kural": "இறந்தார் இறந்தார் அனையர் சினத்தைத்\nதுறந்தார் துறந்தார் துணை.",
+    "meaning": "Letting go of anger brings peace",
+    "action": "Release anger"
+  },
+  {
+    "keywords": ["fear", "courage"],
+    "kural": "அஞ்சுவ தஞ்சாமை பேதைமை அஞ்சுவது\nஅஞ்சல் அறிவார் தொழில்.",
+    "meaning": "Know when to fear and when not",
+    "action": "Act wisely, not blindly"
+  },
+  {
+    "keywords": ["self control", "strength"],
+    "kural": "வலியார்முன் தன்னை நினைக்கதான் தன்னின்\nமெலியார்மேல் செல்லு மிடத்து.",
+    "meaning": "Know your strength",
+    "action": "Act with awareness"
+  },
+  {
+    "keywords": ["criticism", "judgment"],
+    "kural": "பிறன்பழி கூறுவான் தன்பழி யுள்ளும்\nதிறன்தெரிந்து கூறப் படும்.",
+    "meaning": "Those who blame others expose themselves",
+    "action": "Avoid judging others"
+  },
+  {
+    "keywords": ["planning", "risk"],
+    "kural": "வகையறச் சூழா தெழுதல் பகைவரைப்\nபாத்திப் படுப்பதோ ராறு.",
+    "meaning": "Lack of planning leads to failure",
+    "action": "Prepare before acting"
+  },
+  {
+    "keywords": ["fear", "danger"],
+    "kural": "தீயவை தீய பயத்தலால் தீயவை\nதீயினும் அஞ்சப் படும்.",
+    "meaning": "Bad actions bring worse outcomes",
+    "action": "Avoid harmful actions"
+  },
+  {
+    "keywords": ["effort", "success"],
+    "kural": "ஆக்கம் அதர்வினாய்ச் செல்லும் அசைவிலா\nஊக்க முடையா னுழை.",
+    "meaning": "Effort brings progress",
+    "action": "Stay consistent"
+  },
+  {
+    "keywords": ["focus", "discipline"],
+    "kural": "கலங்காது கண்ட வினைக்கண் துளங்காது\nதூக்கங் கடிந்து செயல்.",
+    "meaning": "Act without distraction",
+    "action": "Stay focused"
+  },
+  {
+    "keywords": ["speech", "communication"],
+    "kural": "சொல்லுக சொல்லைப் பிறிதோர்சொல் அச்சொல்லை\nவெல்லுஞ்சொல் இன்மை அறிந்து.",
+    "meaning": "Choose words wisely",
+    "action": "Think before speaking"
+  },
+  {
+    "keywords": ["effort", "growth"],
+    "kural": "உடையர் எனப்படுவது ஊக்கம் அஃதில்லார்\nஉடையது உடையரோ மற்று.",
+    "meaning": "True wealth is effort",
+    "action": "Work hard daily"
+  },  
   {
     "keywords": ["anger", "angry", "rage"],
     "kural": "தன்னைத்தான் காக்கின் சினங்காக்க காவாக்கால்\nதன்னையே கொல்லுஞ் சினம்.",
