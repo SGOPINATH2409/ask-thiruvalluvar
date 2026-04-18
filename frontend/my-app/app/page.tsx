@@ -47,11 +47,18 @@ export default function Home() {
   const [query, setQuery] = useState("");
   const [result, setResult] = useState<any>(null);
 
+  // const askKural = async () => {
+  //   const res = await fetch(`https://ask-api.onrender.com/ask?q=${query}`);
+  //   const data = await res.json();
+  //   setResult(data);
+  // };
   const askKural = async () => {
-    const res = await fetch(`https://ask-api.onrender.com/ask?q=${query}`);
-    const data = await res.json();
-    setResult(data);
-  };
+  const res = await fetch(
+    "https://ask-thiruvalluvar.onrender.com/ask?q=" + query
+  );
+  const data = await res.json();
+  setResult(data);
+};
 
   return (
     <div>
