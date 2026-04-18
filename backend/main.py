@@ -1,11 +1,54 @@
+# from fastapi import FastAPI
+# from fastapi.middleware.cors import CORSMiddleware
+# import json
+# import random
+
+# app = FastAPI()
+
+# # ✅ Enable CORS (needed for frontend)
+# app.add_middleware(
+#     CORSMiddleware,
+#     allow_origins=["*"],
+#     allow_credentials=True,
+#     allow_methods=["*"],
+#     allow_headers=["*"],
+# )
+
+# # Load data from JSON file
+# with open("kurals.json", "r", encoding="utf-8") as f:
+#     data = json.load(f)
+
+# # ✅ Root route (to avoid "Not Found")
+# @app.get("/")
+# def home():
+#     return {"message": "Ask Thiruvalluvar API is running"}
+
+# # ✅ Main API
+# @app.get("/ask")
+# def ask(q: str):
+#     if not q:
+#         return {"error": "Please provide a query"}
+
+#     q = q.lower()
+
+#     for item in data:
+#         if any(keyword in q for keyword in item["keywords"]):
+#             return item
+
+#     # fallback if no match
+#     return random.choice(data)
+
+
+
+
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-import json
-import random
+import openai
 
 app = FastAPI()
 
-# ✅ Enable CORS (needed for frontend)
+openai.api_key = "YOUR_API_KEY"
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -14,54 +57,20 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# ✅ Sample dataset (you can expand later)
-# data = [
-#     {
-#         "keywords": ["angry", "anger", "fight"],
-#         "kural": "அறத்தொடு நடுவுவேண்டும் கோபம் உடையார்",
-#         "meaning": "Control anger with balance",
-#         "action": "Pause before reacting"
-#     },
-#     {
-#         "keywords": ["lazy", "procrastination"],
-#         "kural": "உழுவார் உலகத்தார்க்கு ஆணிஅஞர்",
-#         "meaning": "Hard work sustains life",
-#         "action": "Start with 1 small task"
-#     },
-#     {
-#         "keywords": ["sad", "depressed", "lonely"],
-#         "kural": "இன்பம் விழையான் இழுக்கம் இலானாம்",
-#         "meaning": "Happiness comes to those without greed",
-#         "action": "Focus on what you have, not what you lack"
-#     },
-#     {
-#         "keywords": ["friend", "betrayal", "trust"],
-#         "kural": "நட்பிற்கு உரியர் எனப்படுவர் நெஞ்சத்து",
-#         "meaning": "True friendship lies in trust and loyalty",
-#         "action": "Choose friends carefully"
-#     }
-# ]
-
-# Load data from JSON file
-with open("kurals.json", "r", encoding="utf-8") as f:
-    data = json.load(f)
-
-# ✅ Root route (to avoid "Not Found")
-@app.get("/")
-def home():
-    return {"message": "Ask Thiruvalluvar API is running"}
-
-# ✅ Main API
 @app.get("/ask")
 def ask(q: str):
-    if not q:
-        return {"error": "Please provide a query"}
+    response = openai.ChatCompletion.create(
+        model="gpt-4o-mini",
+        messages=[
+            {
+                "role": "system",
+                "content": "You are Thiruvalluvar. For every problem, give a relevant Thirukural, its meaning, and a short actionable advice."
+            },
+            {
+                "role": "user",
+                "content": q
+            }
+        ]
+    )
 
-    q = q.lower()
-
-    for item in data:
-        if any(keyword in q for keyword in item["keywords"]):
-            return item
-
-    # fallback if no match
-    return random.choice(data)
+    return {"response": response["choices"][0]["message"]["content"]}
