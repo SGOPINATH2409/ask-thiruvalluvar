@@ -114,9 +114,11 @@ export default function Home() {
       const data = await res.json();
 
       const botMessage = {
-        role: "bot",
-        text: data.response || JSON.stringify(data),
-      };
+  role: "bot",
+  kural: data.kural,
+  meaning: data.meaning,
+  action: data.action,
+};
 
       setMessages((prev) => [...prev, botMessage]);
     } catch (err) {
@@ -147,7 +149,15 @@ export default function Home() {
                 : "mr-auto bg-white text-gray-900 shadow"
             }`}
           >
-            {msg.text}
+            {msg.role === "bot" ? (
+  <div>
+    <p className="font-semibold">{msg.kural}</p>
+    <p className="text-sm mt-2 text-gray-600">{msg.meaning}</p>
+    <p className="text-green-600 mt-2 font-medium">{msg.action}</p>
+  </div>
+) : (
+  msg.text
+)}
           </div>
         ))}
 
