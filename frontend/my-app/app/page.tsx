@@ -62,7 +62,7 @@ export default function Home() {
     setLoading(false);
   };
 
-  const emotions = ["angry", "sad", "lazy", "love", "career"];
+  const emotions = ["Tired","angry", "sad", "lazy", "career"];
 
   return (
   <div className="min-h-screen bg-gradient-to-br from-orange-100 to-yellow-200 flex items-center justify-center px-4">
