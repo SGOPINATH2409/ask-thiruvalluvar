@@ -18,13 +18,13 @@ data = [
     }
 ]
 
-# @app.get("/ask")
-# def ask(q: str):
-#     for item in data:
-#         if any(word in q.lower() for word in item["keywords"]):
-#             return item
-#     return random.choice(data)
+@app.get("/ask")
+def ask(q: str):
+    for item in data:
+        if any(word in q.lower() for word in item["keywords"]):
+            return item
+    return random.choice(data)
 
-@app.get("/")
-def home():
-    return {"msg": "correct file loaded"}
+# @app.get("/")
+# def home():
+#     return {"msg": "correct file loaded"}
